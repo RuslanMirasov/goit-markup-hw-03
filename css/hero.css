@@ -1,0 +1,19 @@
+.hero {
+  background-color: var(--navy-blue);
+  color: var(--white);
+  text-align: center;
+}
+
+.button {
+  color: var(--white);
+  background-color: var(--iris);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+}

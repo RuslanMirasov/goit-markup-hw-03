@@ -1,0 +1,8 @@
+.footer {
+  background-color: var(--navy-blue);
+  color: var(--white);
+}
+
+.footer .logo {
+  color: inherit;
+}

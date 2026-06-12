@@ -1,0 +1,8 @@
+.team {
+  background-color: var(--cloud);
+}
+
+.team-list li {
+  background-color: var(--white);
+  text-align: center;
+}
