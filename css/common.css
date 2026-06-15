@@ -20,8 +20,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
@@ -31,6 +29,21 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 ul,
@@ -47,18 +60,43 @@ button {
   cursor: pointer;
 }
 
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding: 120px 0px;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
 /*--------Typography---------*/
 
 .headline-1 {
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07;
+  line-height: 1.07142857;
 }
 
 .headline-2 {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.11111111;
   text-align: center;
   color: var(--navy-blue);
 }

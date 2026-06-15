@@ -1,2 +1,11 @@
-/* Усі стилі для елементів секції успадковуються від базових правил common.css.
-   В рамках даних критеріїв немає необхідності задавати їх явно. */
+.features {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: calc((100% - 72px) / 4);
+}

@@ -1,8 +1,19 @@
 .footer {
   background-color: var(--navy-blue);
-  color: var(--white);
+  color: var(--cloud);
+  padding: 100px 0px;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer .logo {
   color: inherit;
+}
+
+.footer-text {
+  max-width: 264px;
 }

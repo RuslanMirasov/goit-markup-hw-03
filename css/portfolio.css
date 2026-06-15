@@ -1,2 +1,15 @@
-/* Усі стилі для елементів секції успадковуються від базових правил common.css.
-   В рамках даних критеріїв немає необхідності задавати їх явно. */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  margin-top: 72px;
+}
+
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-item .description {
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
