@@ -4,16 +4,7 @@
   padding: 100px 0px;
 }
 
-.footer .container {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.footer .logo {
-  color: inherit;
-}
-
 .footer-text {
   max-width: 264px;
+  margin-top: 16px;
 }

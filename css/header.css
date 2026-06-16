@@ -8,9 +8,9 @@
 
 .logo {
   font-family: var(--raleway);
-  color: var(--navy-blue);
+  color: inherit;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.33333333;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -23,6 +23,7 @@
 .header .logo {
   padding: 24px 0px;
   margin-right: 76px;
+  color: var(--navy-blue);
 }
 
 .navigation,

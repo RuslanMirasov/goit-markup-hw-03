@@ -10,6 +10,7 @@
 }
 
 .portfolio-item .description {
-  border: 1px solid var(--cornflower);
-  border-top: none;
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+  border-bottom: 1px solid var(--cornflower);
 }
