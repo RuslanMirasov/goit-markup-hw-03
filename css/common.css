@@ -110,4 +110,5 @@ button {
   font-weight: 500;
   line-height: 1.2;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
