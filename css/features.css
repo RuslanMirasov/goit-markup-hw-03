@@ -4,7 +4,5 @@
 }
 
 .feature-item {
-  display: flex;
-  flex-direction: column;
   width: calc((100% - 72px) / 4);
 }
