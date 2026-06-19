@@ -9,7 +9,8 @@
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-item .description {
+.portfolio-description {
+  padding: 32px 16px;
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
   border-bottom: 1px solid var(--cornflower);
